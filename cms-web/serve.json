@@ -1,0 +1,10 @@
+{
+  "public": "dist",
+  "port": 3000,
+  "rewrites": [
+    {
+      "source": "/api/**",
+      "destination": "http://127.0.0.1:8000/api/**"
+    }
+  ]
+}

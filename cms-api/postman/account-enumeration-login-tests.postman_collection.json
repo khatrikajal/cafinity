@@ -1,0 +1,205 @@
+{
+  "info": {
+    "_postman_id": "d88c5c39-9bb0-4fd8-9c3c-26e38743e56c",
+    "name": "Cafinity - Login Account Enumeration Tests",
+    "description": "VAPT regression tests for POST /api/v1/auth/login/. Configure the collection variables before running. All rejected login attempts must return HTTP 401 with exactly: {\"detail\":\"Invalid login credentials.\"}.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://127.0.0.1:8000", "type": "string" },
+    { "key": "employeeLoginId", "value": "SET_EMPLOYEE_LOGIN_ID", "type": "string" },
+    { "key": "employeePassword", "value": "SET_EMPLOYEE_PASSWORD", "type": "string" },
+    { "key": "adminLoginId", "value": "SET_ADMIN_LOGIN_ID", "type": "string" },
+    { "key": "adminPassword", "value": "SET_ADMIN_PASSWORD", "type": "string" },
+    { "key": "inactiveLoginId", "value": "SET_INACTIVE_LOGIN_ID", "type": "string" },
+    { "key": "inactivePassword", "value": "SET_INACTIVE_PASSWORD", "type": "string" },
+    { "key": "resetPendingLoginId", "value": "SET_RESET_PENDING_LOGIN_ID", "type": "string" },
+    { "key": "resetPendingPassword", "value": "SET_RESET_PENDING_PASSWORD", "type": "string" }
+  ],
+  "item": [
+    {
+      "name": "VAPT - Generic Rejection Cases",
+      "item": [
+        {
+          "name": "Unknown account",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"account-that-does-not-exist\",\n  \"password\": \"WrongPassword123!\",\n  \"role\": \"employee\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Returns generic login failure', function () {",
+            "  pm.response.to.have.status(401);",
+            "  pm.expect(pm.response.json()).to.eql({ detail: 'Invalid login credentials.' });",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "Existing employee with wrong password",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"{{employeeLoginId}}\",\n  \"password\": \"DefinitelyWrongPassword123!\",\n  \"role\": \"employee\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Does not disclose that employee exists', function () {",
+            "  pm.response.to.have.status(401);",
+            "  pm.expect(pm.response.json()).to.eql({ detail: 'Invalid login credentials.' });",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "Valid employee credentials with admin role",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"{{employeeLoginId}}\",\n  \"password\": \"{{employeePassword}}\",\n  \"role\": \"admin\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Does not disclose employee role', function () {",
+            "  pm.response.to.have.status(401);",
+            "  pm.expect(pm.response.json()).to.eql({ detail: 'Invalid login credentials.' });",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "Valid admin credentials with employee role",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"{{adminLoginId}}\",\n  \"password\": \"{{adminPassword}}\",\n  \"role\": \"employee\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Does not disclose admin role', function () {",
+            "  pm.response.to.have.status(401);",
+            "  pm.expect(pm.response.json()).to.eql({ detail: 'Invalid login credentials.' });",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "Invalid role parameter",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"{{employeeLoginId}}\",\n  \"password\": \"{{employeePassword}}\",\n  \"role\": \"supervisor\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Does not disclose accepted role values', function () {",
+            "  pm.response.to.have.status(401);",
+            "  pm.expect(pm.response.json()).to.eql({ detail: 'Invalid login credentials.' });",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "Missing login ID",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"password\": \"{{employeePassword}}\",\n  \"role\": \"employee\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Uses generic failure for missing login ID', function () {",
+            "  pm.response.to.have.status(401);",
+            "  pm.expect(pm.response.json()).to.eql({ detail: 'Invalid login credentials.' });",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "Missing password",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"{{employeeLoginId}}\",\n  \"role\": \"employee\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Uses generic failure for missing password', function () {",
+            "  pm.response.to.have.status(401);",
+            "  pm.expect(pm.response.json()).to.eql({ detail: 'Invalid login credentials.' });",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "Inactive account",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"{{inactiveLoginId}}\",\n  \"password\": \"{{inactivePassword}}\",\n  \"role\": \"employee\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Does not disclose inactive status', function () {",
+            "  pm.response.to.have.status(401);",
+            "  pm.expect(pm.response.json()).to.eql({ detail: 'Invalid login credentials.' });",
+            "});"
+          ] } }]
+        }
+      ]
+    },
+    {
+      "name": "Control - Successful Authentication",
+      "item": [
+        {
+          "name": "Valid employee login",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"{{employeeLoginId}}\",\n  \"password\": \"{{employeePassword}}\",\n  \"role\": \"employee\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Employee receives tokens', function () {",
+            "  pm.response.to.have.status(200);",
+            "  const body = pm.response.json();",
+            "  pm.expect(body).to.have.property('access');",
+            "  pm.expect(body).to.have.property('refresh');",
+            "});"
+          ] } }]
+        },
+        {
+          "name": "Valid admin login",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"{{adminLoginId}}\",\n  \"password\": \"{{adminPassword}}\",\n  \"role\": \"admin\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Admin receives tokens', function () {",
+            "  pm.response.to.have.status(200);",
+            "  const body = pm.response.json();",
+            "  pm.expect(body).to.have.property('access');",
+            "  pm.expect(body).to.have.property('refresh');",
+            "});"
+          ] } }]
+        }
+      ]
+    },
+    {
+      "name": "Control - Valid Credentials Requiring Password Reset",
+      "item": [
+        {
+          "name": "Reset-pending employee login",
+          "request": {
+            "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "body": { "mode": "raw", "raw": "{\n  \"login_id\": \"{{resetPendingLoginId}}\",\n  \"password\": \"{{resetPendingPassword}}\",\n  \"role\": \"employee\"\n}" },
+            "url": "{{baseUrl}}/api/v1/auth/login/"
+          },
+          "event": [{ "listen": "test", "script": { "exec": [
+            "pm.test('Valid credentials enter password reset flow', function () {",
+            "  pm.response.to.have.status(403);",
+            "  pm.expect(pm.response.json().action_required).to.eql('password_reset');",
+            "});"
+          ] } }]
+        }
+      ]
+    }
+  ]
+}

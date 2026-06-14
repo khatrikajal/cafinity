@@ -1,0 +1,7 @@
+{% extends "emails/base_email.html" %}
+
+{% block content %}
+  <p style="margin:0 0 12px 0;">Your food order <strong>{{ order.order_code }}</strong> has been placed successfully.</p>
+  <p style="margin:0 0 12px 0;"><strong>Current status:</strong> {{ status_title|default:status|title }}</p>
+  <p style="margin:0;">Total amount: <strong>₹ {{ order.total_amount|floatformat:0 }}</strong></p>
+{% endblock %}

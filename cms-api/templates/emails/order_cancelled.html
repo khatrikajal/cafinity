@@ -1,0 +1,7 @@
+{% extends "emails/base_email.html" %}
+
+{% block content %}
+  <p style="margin:0 0 12px 0;">Your food order <strong>{{ order.order_code }}</strong> has been cancelled.</p>
+  <p style="margin:0 0 12px 0;"><strong>Current status:</strong> {{ status_title }}</p>
+  <p style="margin:0;">If you believe this was done in error, please contact support.</p>
+{% endblock %}

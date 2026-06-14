@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>{{ email_title|default:"CAFINITY Notification" }}</title>
+  </head>
+  <body style="margin:0;padding:0;background:#f4f6f8;font-family:Arial,Helvetica,sans-serif;color:#1f2937;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#f4f6f8;padding:28px 12px;">
+      <tr>
+        <td align="center">
+          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:680px;background:#ffffff;border:1px solid #e5e7eb;border-radius:10px;overflow:hidden;">
+            <tr>
+              <td style="padding:24px 28px 12px 28px;border-bottom:1px solid #eef2f7;">
+                {% if ampcus_logo_url %}
+                  <img src="{{ ampcus_logo_url }}" alt="Ampcus Tech" style="display:block;width:220px;max-width:100%;height:auto;">
+                {% endif %}
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:24px 28px 6px 28px;font-size:14px;line-height:1.6;">
+                <p style="margin:0 0 14px 0;">Dear {{ recipient_name|default:"User" }},</p>
+                {% block content %}{% endblock %}
+                {% if cta_url %}
+                  <p style="margin:24px 0 0 0;">
+                    <a href="{{ cta_url }}" style="display:inline-block;background:#0b63ce;color:#ffffff;text-decoration:none;padding:10px 18px;border-radius:4px;font-weight:700;">
+                      {{ cta_label|default:"Open Dashboard" }}
+                    </a>
+                  </p>
+                  <p style="margin:12px 0 0 0;color:#4b5563;font-size:13px;">
+                    If the button does not work, copy this link into your browser:
+                    <a href="{{ cta_url }}" style="color:#0b63ce;text-decoration:underline;word-break:break-all;">{{ cta_url }}</a>
+                  </p>
+                {% endif %}
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0 28px;">
+                <hr style="border:none;border-top:1px solid #e5e7eb;margin:18px 0;">
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:0 28px 24px 28px;font-size:13px;line-height:1.6;color:#4b5563;">
+                <p style="margin:0 0 14px 0;">Regards,<br>{{ support_team_name }}</p>
+                <p style="margin:0 0 16px 0;">Note: This is an automated notification. Please do not reply to this email.</p>
+                {% if cafinity_logo_url %}
+                  <img src="{{ cafinity_logo_url }}" alt="Cafinity" style="display:block;width:130px;max-width:100%;height:auto;margin:8px 0 8px 0;">
+                {% endif %}
+                <p style="margin:0;font-size:12px;color:#6b7280;">{{ copyright_line }}</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

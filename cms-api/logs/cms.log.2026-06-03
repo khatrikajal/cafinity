@@ -1,0 +1,873 @@
+2026-06-03 12:08:31 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 12:08:31 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 12:08:41 INFO apps.cms.scheduler scheduler._expiry_loop:70 — AUTO_ORDER_EXPIRY expired_count=1
+2026-06-03 12:20:19 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 12:20:19 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 12:22:23 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 12:22:23 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 12:40:25 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 12:40:25 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 12:41:24 INFO apps.accounts.views views.login_view:180 — LOGIN_ATTEMPT endpoint=/api/v1/auth/login/ ip=172.22.10.24
+2026-06-03 12:41:24 DEBUG apps.accounts.views views.login_view:186 — LOGIN_INPUT login_id=admin role=admin
+2026-06-03 12:41:25 DEBUG apps.accounts.views views._build_token_pair:128 — JWT_BUILD_START user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a username=admin role_type=SUPER_ADMIN company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe employee_id=d82d27e4-3d65-4061-a5b7-5f4f5ecc3941
+2026-06-03 12:41:25 DEBUG apps.accounts.views views._build_token_pair:156 — JWT_BUILD_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 12:41:25 INFO apps.accounts.views views.login_view:279 — LOGIN_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a username=admin role_type=SUPER_ADMIN company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe
+2026-06-03 12:41:25 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 12:41:25 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 12:44:02 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\employee_order.py changed, reloading.
+2026-06-03 12:44:03 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 12:44:03 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 12:45:55 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\models\slot.py changed, reloading.
+2026-06-03 12:45:56 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 12:45:56 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 12:46:04 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\migrations\0025_mealslot_buffer_minutes.py changed, reloading.
+2026-06-03 12:46:05 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 12:46:05 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 12:48:04 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\employee_order.py changed, reloading.
+2026-06-03 12:48:05 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 12:48:05 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 12:49:09 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\services\notifications.py changed, reloading.
+2026-06-03 12:49:10 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 12:49:11 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 13:06:09 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 13:06:09 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 13:10:07 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 13:10:07 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 13:11:43 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:43 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:43 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:43 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:43 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:43 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:43 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:43 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:50 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:50 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:51 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:51 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:53 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:11:54 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:11:54 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:14:48 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:14:48 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:15:16 INFO apps.accounts.views views.login_view:180 — LOGIN_ATTEMPT endpoint=/api/v1/auth/login/ ip=172.22.10.24
+2026-06-03 13:15:16 DEBUG apps.accounts.views views.login_view:186 — LOGIN_INPUT login_id=EMP-200 role=employee
+2026-06-03 13:15:16 DEBUG apps.accounts.views views._build_token_pair:128 — JWT_BUILD_START user_id=0df88a22-0da6-41d4-842e-632f646effce username=EMP-200 role_type=EMPLOYEE company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe employee_id=3683f43b-9f92-4752-aa6e-401077da934b
+2026-06-03 13:15:16 DEBUG apps.accounts.views views._build_token_pair:156 — JWT_BUILD_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 13:15:16 INFO apps.accounts.views views.login_view:279 — LOGIN_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce username=EMP-200 role_type=EMPLOYEE company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe
+2026-06-03 13:15:17 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:15:17 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 13:15:34 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:15:34 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 13:17:25 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:17:25 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:42:54 INFO apps.accounts.views views.login_view:180 — LOGIN_ATTEMPT endpoint=/api/v1/auth/login/ ip=172.22.10.24
+2026-06-03 13:42:54 DEBUG apps.accounts.views views.login_view:186 — LOGIN_INPUT login_id=limitedadmin role=admin
+2026-06-03 13:42:54 DEBUG apps.accounts.views views._build_token_pair:128 — JWT_BUILD_START user_id=f1645d02-323c-42bb-81ea-d39b6cbba026 username=limitedadmin role_type=LIMITED_ADMIN company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe employee_id=eeecb3d4-e1d0-4cd4-a566-42c6eb9dbe29
+2026-06-03 13:42:54 DEBUG apps.accounts.views views._build_token_pair:156 — JWT_BUILD_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 13:42:54 INFO apps.accounts.views views.login_view:279 — LOGIN_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026 username=limitedadmin role_type=LIMITED_ADMIN company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe
+2026-06-03 13:42:55 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:42:55 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 13:42:55 INFO apps.accounts.views views.me_view:520 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 13:42:55 DEBUG apps.accounts.views views.me_view:528 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 13:44:32 WARNING django.request log.log_response:253 — Not Found: /assets/styles-D2NmAzXZ.css
+2026-06-03 13:45:09 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:45:09 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 13:45:09 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:45:09 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 13:48:22 WARNING django.request log.log_response:253 — Forbidden: /api/v1/auth/companies/
+2026-06-03 13:48:22 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/devices/
+2026-06-03 13:48:30 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/devices/
+2026-06-03 13:48:30 WARNING django.request log.log_response:253 — Forbidden: /api/v1/auth/companies/
+2026-06-03 13:48:46 WARNING django.request log.log_response:253 — Forbidden: /api/v1/auth/employees/
+2026-06-03 13:48:46 WARNING django.request log.log_response:253 — Forbidden: /api/v1/auth/departments/
+2026-06-03 13:50:02 WARNING django.request log.log_response:253 — Forbidden: /api/v1/auth/employees/
+2026-06-03 13:50:03 WARNING django.request log.log_response:253 — Forbidden: /api/v1/auth/departments/
+2026-06-03 13:50:25 INFO apps.accounts.views views.login_view:180 — LOGIN_ATTEMPT endpoint=/api/v1/auth/login/ ip=172.22.10.24
+2026-06-03 13:50:25 DEBUG apps.accounts.views views.login_view:186 — LOGIN_INPUT login_id=admin role=admin
+2026-06-03 13:50:26 DEBUG apps.accounts.views views._build_token_pair:128 — JWT_BUILD_START user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a username=admin role_type=SUPER_ADMIN company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe employee_id=d82d27e4-3d65-4061-a5b7-5f4f5ecc3941
+2026-06-03 13:50:26 DEBUG apps.accounts.views views._build_token_pair:156 — JWT_BUILD_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:50:26 INFO apps.accounts.views views.login_view:279 — LOGIN_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a username=admin role_type=SUPER_ADMIN company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe
+2026-06-03 13:50:40 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:50:40 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 13:54:18 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:54:18 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 13:54:30 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:54:30 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 13:59:00 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:59:00 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 13:59:02 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:59:02 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 13:59:53 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 13:59:53 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 14:00:16 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/employee/orders/
+2026-06-03 14:00:23 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/employee/orders/
+2026-06-03 14:00:29 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/employee/orders/
+2026-06-03 14:00:58 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 14:00:58 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 14:01:15 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 14:01:15 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 14:01:23 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/employee/orders/
+2026-06-03 14:06:58 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\employee_order.py changed, reloading.
+2026-06-03 14:07:02 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 14:07:03 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 14:09:57 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 14:09:57 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 14:10:29 INFO apps.accounts.views views.me_view:520 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 14:10:29 DEBUG apps.accounts.views views.me_view:528 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 14:10:39 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/counter/orders/dc88d33a-02e4-4457-a009-3dc42acb9bb9/print-receipt/
+2026-06-03 14:39:27 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 14:39:27 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 14:59:15 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 14:59:15 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 14:59:15 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 14:59:15 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/slots/upcoming/
+2026-06-03 14:59:15 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 14:59:15 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 14:59:15 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 14:59:15 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 14:59:15 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 14:59:16 INFO apps.accounts.views views.me_view:520 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 14:59:16 DEBUG apps.accounts.views views.me_view:528 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 14:59:17 INFO apps.accounts.views views.me_view:520 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 14:59:17 DEBUG apps.accounts.views views.me_view:528 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 14:59:46 INFO apps.accounts.views views.me_view:520 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 14:59:46 DEBUG apps.accounts.views views.me_view:528 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 15:03:42 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\counter.py changed, reloading.
+2026-06-03 15:03:43 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:03:43 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:06:11 INFO apps.accounts.views views.me_view:520 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 15:06:11 DEBUG apps.accounts.views views.me_view:528 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 15:06:27 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:06:27 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 15:09:27 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:09:27 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 15:09:35 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:09:35 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 15:10:07 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:10:07 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 15:12:45 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:12:45 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 15:14:10 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:14:10 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 15:14:39 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:14:39 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 15:17:33 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:17:33 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 15:18:28 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:18:28 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 15:19:03 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:19:03 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 15:21:34 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\admin.py changed, reloading.
+2026-06-03 15:21:36 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:21:36 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:21:46 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\counter.py changed, reloading.
+2026-06-03 15:21:47 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:21:47 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:21:57 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\kitchen.py changed, reloading.
+2026-06-03 15:21:58 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:21:58 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:22:57 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\counter.py changed, reloading.
+2026-06-03 15:22:58 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:22:58 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:23:53 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\admin.py changed, reloading.
+2026-06-03 15:23:54 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:23:54 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:24:15 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\kitchen.py changed, reloading.
+2026-06-03 15:24:16 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:24:16 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:27:15 INFO apps.accounts.views views.me_view:520 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 15:27:15 DEBUG apps.accounts.views views.me_view:528 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 15:27:42 INFO apps.accounts.views views.me_view:520 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 15:27:42 DEBUG apps.accounts.views views.me_view:528 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 15:29:06 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:29:06 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 15:33:59 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\guest_order.py changed, reloading.
+2026-06-03 15:34:00 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:34:00 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:34:13 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\guest_order.py changed, reloading.
+2026-06-03 15:34:15 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:34:15 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:34:30 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\guest_order.py changed, reloading.
+2026-06-03 15:34:31 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:34:31 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:37:05 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:37:05 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 15:47:45 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:47:45 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 15:48:44 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:48:44 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:48:44 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:48:44 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 15:48:44 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 15:48:44 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 15:48:44 INFO apps.accounts.views views.me_view:520 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 15:48:44 DEBUG apps.accounts.views views.me_view:528 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 15:48:59 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 15:48:59 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 15:53:06 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\announcement_view.py changed, reloading.
+2026-06-03 15:53:07 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 15:53:07 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/1/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/4/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/7/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/8/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/9999/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/stats/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/15/toggle_status/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/16/toggle_status/
+2026-06-03 15:56:03 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/announcements/17/toggle_status/
+2026-06-03 15:56:30 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/
+2026-06-03 15:56:31 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/
+2026-06-03 15:56:31 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/
+2026-06-03 15:56:31 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/
+2026-06-03 15:56:32 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/1/
+2026-06-03 15:56:32 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/
+2026-06-03 15:56:32 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/4/
+2026-06-03 15:56:32 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/
+2026-06-03 15:56:33 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/7/
+2026-06-03 15:56:33 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/8/
+2026-06-03 15:56:33 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/9999/
+2026-06-03 15:56:34 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/
+2026-06-03 15:56:34 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/
+2026-06-03 15:56:34 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/stats/
+2026-06-03 15:56:35 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/15/toggle_status/
+2026-06-03 15:56:35 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/16/toggle_status/
+2026-06-03 15:56:35 WARNING django.request log.log_response:253 — Forbidden: /api/v1/cms/announcements/17/toggle_status/
+2026-06-03 15:57:09 ERROR django.request log.log_response:253 — Internal Server Error: /api/v1/cms/announcements/
+Traceback (most recent call last):
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column "recipient_id" of relation "notifications" does not exist
+LINE 1: INSERT INTO "notifications" ("id", "recipient_id", "related_...
+                                           ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\cafinity\cms-api\apps\cms\views\announcement_view.py", line 129, in create
+    _notify_employees_for_announcement(instance, "created")
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\apps\cms\views\announcement_view.py", line 66, in _notify_employees_for_announcement
+    Notification.objects.bulk_create(notifications)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 808, in bulk_create
+    returned_columns = self._batched_insert(
+        objs_with_pk,
+    ...<4 lines>...
+        unique_fields=unique_fields,
+    )
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 1901, in _batched_insert
+    self._insert(
+    ~~~~~~~~~~~~^
+        item,
+        ^^^^^
+    ...<5 lines>...
+        returning_fields=self.model._meta.db_returning_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column "recipient_id" of relation "notifications" does not exist
+LINE 1: INSERT INTO "notifications" ("id", "recipient_id", "related_...
+                                           ^
+
+2026-06-03 15:57:09 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/announcements/
+2026-06-03 15:57:10 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/announcements/
+2026-06-03 15:57:12 WARNING django.request log.log_response:253 — Not Found: /api/v1/cms/announcements/9999/
+2026-06-03 15:58:00 ERROR django.request log.log_response:253 — Internal Server Error: /api/v1/cms/announcements/
+Traceback (most recent call last):
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: null value in column "message" of relation "notifications" violates not-null constraint
+DETAIL:  Failing row contains (ac82770f-da4e-421d-b42b-6ee8051b0c64, null, f, 2026-06-03 10:28:00.858321+00, null, null, 3f2ec4a3-0132-4e1e-90dc-9fe3b11a5279, null, system, New announcement: Lunch Update, Refreshment served. Special dish: Dosa. Time: 07:00 - 09:00., null).
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\cafinity\cms-api\apps\cms\views\announcement_view.py", line 129, in create
+    _notify_employees_for_announcement(instance, "created")
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\apps\cms\views\announcement_view.py", line 66, in _notify_employees_for_announcement
+    Notification.objects.bulk_create(notifications)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 808, in bulk_create
+    returned_columns = self._batched_insert(
+        objs_with_pk,
+    ...<4 lines>...
+        unique_fields=unique_fields,
+    )
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 1901, in _batched_insert
+    self._insert(
+    ~~~~~~~~~~~~^
+        item,
+        ^^^^^
+    ...<5 lines>...
+        returning_fields=self.model._meta.db_returning_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.IntegrityError: null value in column "message" of relation "notifications" violates not-null constraint
+DETAIL:  Failing row contains (ac82770f-da4e-421d-b42b-6ee8051b0c64, null, f, 2026-06-03 10:28:00.858321+00, null, null, 3f2ec4a3-0132-4e1e-90dc-9fe3b11a5279, null, system, New announcement: Lunch Update, Refreshment served. Special dish: Dosa. Time: 07:00 - 09:00., null).
+
+2026-06-03 15:58:01 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/announcements/
+2026-06-03 15:58:01 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/announcements/
+2026-06-03 15:58:03 WARNING django.request log.log_response:253 — Not Found: /api/v1/cms/announcements/9999/
+2026-06-03 15:58:29 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/announcements/
+2026-06-03 15:58:29 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/announcements/
+2026-06-03 15:58:32 WARNING django.request log.log_response:253 — Not Found: /api/v1/cms/announcements/9999/
+2026-06-03 16:00:01 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:00:01 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 16:00:29 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:00:29 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 16:30:29 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:30:29 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 16:31:36 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:31:36 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 16:32:45 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:32:45 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 16:33:15 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:33:15 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:33:15 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:33:15 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 16:33:15 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 16:33:15 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 16:44:12 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:44:12 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 16:46:02 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:46:02 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 16:54:14 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\reports\views.py changed, reloading.
+2026-06-03 16:54:17 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 16:54:17 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 16:56:37 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:56:37 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 16:57:39 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 16:57:39 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 17:01:29 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 17:01:29 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 17:01:40 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 17:01:40 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 17:09:55 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\reports\views.py changed, reloading.
+2026-06-03 17:09:56 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 17:09:56 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 17:11:03 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 17:11:03 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 17:17:30 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 17:17:30 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 17:17:32 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 17:17:32 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 17:17:32 INFO apps.accounts.views views.refresh_view:456 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 17:17:32 INFO apps.accounts.views views.refresh_view:477 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 17:25:40 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\notifications\views.py changed, reloading.
+2026-06-03 17:25:41 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 17:25:41 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 17:26:18 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\announcement_view.py changed, reloading.
+2026-06-03 17:26:19 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 17:26:19 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 17:26:48 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\accounts\views.py changed, reloading.
+2026-06-03 17:26:49 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 17:26:49 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 17:27:09 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\accounts\views.py changed, reloading.
+2026-06-03 17:27:10 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 17:27:10 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 17:28:30 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\notifications\utils.py changed, reloading.
+2026-06-03 17:28:31 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 17:28:32 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 17:31:44 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 17:31:44 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 17:33:45 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 17:33:45 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 17:35:22 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 17:35:22 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 17:41:17 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\employee_order.py changed, reloading.
+2026-06-03 17:41:18 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 17:41:18 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 17:42:06 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\urls.py changed, reloading.
+2026-06-03 17:42:07 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 17:42:07 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 17:42:30 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\employee_order.py changed, reloading.
+2026-06-03 17:42:31 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 17:42:31 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 18:02:08 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:02:08 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 18:25:09 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\views\employee_order.py changed, reloading.
+2026-06-03 18:25:11 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 18:25:11 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 18:31:57 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:31:57 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 18:35:32 WARNING django.request log.log_response:253 — Not Found: /api/v1/cms/employee/wallet/
+2026-06-03 18:35:47 WARNING django.request log.log_response:253 — Not Found: /api/v1/cms/employee/wallet/
+2026-06-03 18:35:58 WARNING django.request log.log_response:253 — Not Found: /api/v1/cms/employee/wallet/
+2026-06-03 18:36:28 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:36:28 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 18:37:26 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:37:26 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 18:37:26 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:37:26 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 18:37:26 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 18:37:26 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 18:37:28 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 18:37:28 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 18:37:29 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 18:37:29 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 18:37:33 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:37:33 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 18:37:33 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 18:37:33 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 18:37:46 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:37:46 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 18:38:13 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:38:13 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:38:13 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/slots/
+2026-06-03 18:38:13 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 18:38:13 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 18:38:35 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:38:35 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 18:39:54 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:39:54 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 18:41:51 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\apps.py changed, reloading.
+2026-06-03 18:41:52 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 18:41:52 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 18:42:49 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\config\settings\base.py changed, reloading.
+2026-06-03 18:42:50 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 18:42:50 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 18:44:26 ERROR django.request log.log_response:253 — Internal Server Error: /api/v1/cms/employee/orders/
+Traceback (most recent call last):
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "uniq_employee_slot_active_order"
+DETAIL:  Key (employee_id, slot_id)=(3683f43b-9f92-4752-aa6e-401077da934b, cb3543cd-2f05-49e7-8783-c8c8e2566e81) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\cafinity\cms-api\apps\cms\views\employee_order.py", line 582, in employee_orders_view
+    order = Order.objects.create(
+        order_code=_generate_order_code(),
+    ...<6 lines>...
+        total_amount=subtotal,
+    )
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "uniq_employee_slot_active_order"
+DETAIL:  Key (employee_id, slot_id)=(3683f43b-9f92-4752-aa6e-401077da934b, cb3543cd-2f05-49e7-8783-c8c8e2566e81) already exists.
+
+2026-06-03 18:44:38 ERROR django.request log.log_response:253 — Internal Server Error: /api/v1/cms/employee/orders/
+Traceback (most recent call last):
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "uniq_employee_slot_active_order"
+DETAIL:  Key (employee_id, slot_id)=(3683f43b-9f92-4752-aa6e-401077da934b, cb3543cd-2f05-49e7-8783-c8c8e2566e81) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\cafinity\cms-api\apps\cms\views\employee_order.py", line 582, in employee_orders_view
+    order = Order.objects.create(
+        order_code=_generate_order_code(),
+    ...<6 lines>...
+        total_amount=subtotal,
+    )
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 665, in create
+    obj.save(force_insert=True, using=self.db)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\base.py", line 902, in save
+    self.save_base(
+    ~~~~~~~~~~~~~~^
+        using=using,
+        ^^^^^^^^^^^^
+    ...<2 lines>...
+        update_fields=update_fields,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\base.py", line 1008, in save_base
+    updated = self._save_table(
+        raw,
+    ...<4 lines>...
+        update_fields,
+    )
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\base.py", line 1169, in _save_table
+    results = self._do_insert(
+        cls._base_manager, using, fields, returning_fields, raw
+    )
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\base.py", line 1210, in _do_insert
+    return manager._insert(
+           ~~~~~~~~~~~~~~~^
+        [self],
+        ^^^^^^^
+    ...<3 lines>...
+        raw=raw,
+        ^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\query.py", line 1873, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1882, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\cafinity\cms-api\.venv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "uniq_employee_slot_active_order"
+DETAIL:  Key (employee_id, slot_id)=(3683f43b-9f92-4752-aa6e-401077da934b, cb3543cd-2f05-49e7-8783-c8c8e2566e81) already exists.
+
+2026-06-03 18:48:16 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:48:16 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 18:48:35 WARNING django.request log.log_response:253 — Bad Request: /api/v1/cms/kitchen/orders/37f1fd8a-39d3-4faf-87d4-4628fb331fc5/status/
+2026-06-03 18:51:01 INFO django.utils.autoreload autoreload.trigger_reload:265 — D:\cafinity\cms-api\apps\cms\services\notifications.py changed, reloading.
+2026-06-03 18:51:02 INFO apps.cms.scheduler scheduler.start_order_expiry_scheduler:99 — AUTO_ORDER_EXPIRY_STARTED interval_seconds=300 startup_delay_seconds=10
+2026-06-03 18:51:02 INFO django.utils.autoreload autoreload.run_with_reloader:667 — Watching for file changes with StatReloader
+2026-06-03 18:54:30 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 18:54:30 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 18:55:52 WARNING django.request log.log_response:253 — Unauthorized: /api/v1/cms/admin/dashboard/
+2026-06-03 18:55:57 INFO apps.accounts.views views.login_view:181 — LOGIN_ATTEMPT endpoint=/api/v1/auth/login/ ip=172.22.10.24
+2026-06-03 18:55:57 DEBUG apps.accounts.views views.login_view:187 — LOGIN_INPUT login_id=limitedadmin role=employee
+2026-06-03 18:55:57 WARNING apps.accounts.views views.login_view:231 — LOGIN_FAILED_ROLE_MISMATCH_EMPLOYEE user_id=f1645d02-323c-42bb-81ea-d39b6cbba026 role_type=LIMITED_ADMIN
+2026-06-03 18:55:57 WARNING django.request log.log_response:253 — Forbidden: /api/v1/auth/login/
+2026-06-03 18:56:02 INFO apps.accounts.views views.login_view:181 — LOGIN_ATTEMPT endpoint=/api/v1/auth/login/ ip=172.22.10.24
+2026-06-03 18:56:02 DEBUG apps.accounts.views views.login_view:187 — LOGIN_INPUT login_id=limitedadmin role=admin
+2026-06-03 18:56:03 DEBUG apps.accounts.views views._build_token_pair:129 — JWT_BUILD_START user_id=f1645d02-323c-42bb-81ea-d39b6cbba026 username=limitedadmin role_type=LIMITED_ADMIN company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe employee_id=eeecb3d4-e1d0-4cd4-a566-42c6eb9dbe29
+2026-06-03 18:56:03 DEBUG apps.accounts.views views._build_token_pair:157 — JWT_BUILD_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 18:56:03 INFO apps.accounts.views views.login_view:280 — LOGIN_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026 username=limitedadmin role_type=LIMITED_ADMIN company_id=6558a5c8-9d7c-4aa7-ad0f-a3592df97afe
+2026-06-03 18:56:03 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 18:56:03 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:00:23 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:00:23 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:00:23 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:00:23 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:00:30 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:00:30 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 19:02:28 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:02:28 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:02:29 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:02:29 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:02:42 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:02:42 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:02:43 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:02:43 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:02:43 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:02:43 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:04:27 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:04:27 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:04:27 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:04:27 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:04:55 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:04:55 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:15:16 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:15:16 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:29:29 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:29:29 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:29:29 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:29:29 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:30:12 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:30:12 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 19:30:12 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:30:12 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 19:30:32 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:30:32 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:30:32 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:30:32 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:40:53 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:40:53 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:40:53 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:40:53 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:42:59 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:42:59 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:42:59 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:42:59 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:22 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:43:22 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:22 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:22 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:28 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:28 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:28 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:28 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:29 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:29 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:29 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:29 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:32 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:32 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:32 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:32 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:33 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:33 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:40 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:40 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:42 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:42 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:44 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:44 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:45 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:45 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:47 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:47 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:49 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:49 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:51 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:51 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:43:56 INFO apps.accounts.views views.me_view:521 — ME_ENDPOINT_HIT endpoint=/api/v1/auth/me/
+2026-06-03 19:43:56 DEBUG apps.accounts.views views.me_view:529 — ME_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 19:45:33 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:45:33 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 19:54:33 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:54:33 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 19:54:47 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:54:47 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 19:54:50 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:54:50 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 19:55:30 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 19:55:30 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0a738b59-66fe-46f0-9ce3-72c28236cb4a
+2026-06-03 20:13:31 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 20:13:31 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 20:25:19 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 20:25:19 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 20:25:19 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 20:25:19 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 20:43:33 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 20:43:33 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=f1645d02-323c-42bb-81ea-d39b6cbba026
+2026-06-03 20:55:33 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 20:55:33 INFO apps.accounts.views views.refresh_view:457 — TOKEN_REFRESH_ATTEMPT endpoint=/api/v1/auth/refresh/
+2026-06-03 20:55:33 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
+2026-06-03 20:55:33 INFO apps.accounts.views views.refresh_view:478 — TOKEN_REFRESH_SUCCESS user_id=0df88a22-0da6-41d4-842e-632f646effce
