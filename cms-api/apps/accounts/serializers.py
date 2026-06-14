@@ -69,13 +69,21 @@ class EmployeeListSerializer(serializers.ModelSerializer):
 
 
 class EmployeeDetailSerializer(SanitizeInputMixin, serializers.ModelSerializer):
-    FIELDS_TO_SANITIZE = [
-        'firstName', 'lastName', 'address', 'designation', 'email', 'phone', 'employee_code',
-    ]
+    
     """
     Detail view serializer for create/update/retrieve.
     Maps frontend input (firstName, lastName, employee_code) to backend (first_name, last_name, employee_code).
     """
+    FIELDS_TO_SANITIZE = [
+        'firstName', 'lastName', 'address', 'designation', 'email', 'phone', 'employee_code',
+    ]
+    FIELDS_TO_REJECT_HTML = [
+        "firstName",
+        "lastName",
+        "address",
+        "designation",
+        "employee_code",
+    ]
     
     # Read-only output fields
     employeeId = serializers.CharField(source='employee_code', read_only=True)
@@ -395,7 +403,7 @@ class EmployeeDetailSerializer(SanitizeInputMixin, serializers.ModelSerializer):
                 )
             })
 
-        return data
+        return super().validate(data)
 
     def to_representation(self, instance):
         representation = super().to_representation(instance)
